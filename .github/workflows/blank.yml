@@ -35,10 +35,10 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   
-  test:
-    runs-on: ubuntu-latest
-    # we can chain these jobs meaning once build is done do this
-    needs: [build]
-    steps:
+#   test:
+#     runs-on: ubuntu-latest
+#     # we can chain these jobs meaning once build is done do this
+#     needs: [build]
+#     steps:
       
   
